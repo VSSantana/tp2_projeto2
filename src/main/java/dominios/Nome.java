@@ -5,15 +5,17 @@ public class Nome {
     private String nome;
     private int nomeSize = 100;
 
-    void SetNome (String nome) {
+    public Nome () {}
 
-        ValidarNome(nome);
+    public void setNome (String nome) {
 
-        this.nome = nome;
+        validarNome(nome);
+
+        this.nome = nome.toUpperCase();
 
     }
 
-    void ValidarNome (String nome) {
+    private void validarNome (String nome) {
 
         if (nome.length() > nomeSize || nome.isEmpty()) {
 
@@ -22,5 +24,7 @@ public class Nome {
         }
 
     }
+
+    public String getNome () { return nome; }
 
 }
