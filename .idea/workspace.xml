@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f425ce02-13ce-4cc1-a122-18f5cdce4c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoApoioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Nome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Nome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/Funcao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/Funcao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/FuncaoApoio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/FuncaoApoio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/NomeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/NomeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Nome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Nome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Funcao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Funcao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Setor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Setor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +43,11 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="609">
+                  <state relative-caret-position="558">
                     <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
                     <folding>
                       <element signature="imports" expanded="true" />
@@ -127,32 +119,33 @@
     <session id="54636884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="51" />
+          <entry key="java" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="4045" />
+          <entry key="java" value="5709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4045" />
+          <entry key="JAVA" value="5709" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
@@ -206,6 +199,9 @@
         <option value="$PROJECT_DIR$/src/main/java/entidades/Funcao.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoApoioTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/Setor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/Funcionario.java" />
       </list>
     </option>
   </component>
@@ -229,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,6 +288,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,7 +297,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541256486312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541268218263" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -448,6 +444,7 @@
       <workItem from="1541070365757" duration="5465000" />
       <workItem from="1541191276706" duration="15117000" />
       <workItem from="1541249869787" duration="5483000" />
+      <workItem from="1541261179598" duration="5298000" />
     </task>
     <servers />
   </component>
@@ -484,12 +481,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47766000" />
+    <option name="totallyTimeSpent" value="53064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,27 +527,6 @@
     <entry file="file://$PROJECT_DIR$/src/main.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/massive/dynamics.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Setor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Diretor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -596,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/CodEmpresa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cpf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -621,13 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Idade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -666,23 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Nome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -703,13 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -724,6 +662,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/CodEmpresa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Idade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Setor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="20" selection-end-column="85" />
         </state>
       </provider>
     </entry>
