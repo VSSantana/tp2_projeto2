@@ -19,7 +19,8 @@ public class Nome {
     private void validarNome (String nome) {
 
         int nomeSize = 100;
-        if (nome.length() > nomeSize || nome.isEmpty()) {
+
+        if (nome == null || nome.length() > nomeSize || nome.isEmpty()) {
 
             throw new IllegalArgumentException("Nome não deve ser nulo ou maior que 100 caracteres.");
 

@@ -8,7 +8,7 @@ public class Data {
 
     public Data () {}
 
-    public void setData (Date date){
+    public void setData (Date data){
 
         this.data = data;
 

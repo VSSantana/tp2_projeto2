@@ -21,7 +21,7 @@ class NomeTest {
     @org.junit.jupiter.api.Test
     void setNomeInvalidoComNumeros () {
 
-        String nomePessoa = "Marcos Roberto Silveira Reis 1º";
+        String nomePessoa = "Marcos Roberto Silveira Reis 1";
         Nome nome = new Nome();
 
         try {
@@ -62,6 +62,20 @@ class NomeTest {
 
         String nomePessoa = "";
         Nome nome = new Nome();
+
+        try {
+
+            nome.setNome(nomePessoa);
+
+            fail("A exceção esperada não foi lançada.");
+
+        } catch (IllegalArgumentException exception) {
+
+            assertEquals("Nome não deve ser nulo ou maior que 100 caracteres.", exception.getMessage());
+
+        }
+
+        nomePessoa = null;
 
         try {
 
