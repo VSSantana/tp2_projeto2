@@ -104,7 +104,7 @@ class NomeTest {
 
         } catch (IllegalArgumentException exception) {
 
-            assertEquals("O nome não deve conter símbolos.", exception.getMessage());
+            assertEquals("O nome não deve conter símbolos e deve ser completo.", exception.getMessage());
 
         }
 

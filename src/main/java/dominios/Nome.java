@@ -40,7 +40,7 @@ public class Nome {
 
         if(!matcherName.matches()){
 
-            throw new IllegalArgumentException("O nome não deve conter símbolos.");
+            throw new IllegalArgumentException("O nome não deve conter símbolos e deve ser completo.");
 
         }
 

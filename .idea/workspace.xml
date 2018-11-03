@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f425ce02-13ce-4cc1-a122-18f5cdce4c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/CodEmpresaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/StatusTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/ValorMonetarioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoApoioTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/CPF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/CPF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/CodEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/CodEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Data.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Nome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Nome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/ValorMonetario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/ValorMonetario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/CPFTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/CPFTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/Funcao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/Funcao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/FuncaoApoio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/FuncaoApoio.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/NomeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/NomeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/CPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cpf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Cod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Cod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/CodEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/CodEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Nome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Nome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/ValorMonetario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/ValorMonetario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testes/dominio/CPFTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/CpfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Funcao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Funcao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,6 +46,28 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="609">
+                    <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1993760773">
@@ -115,39 +127,39 @@
     <session id="54636884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="43" />
+          <entry key="java" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="3000" />
+          <entry key="java" value="4045" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3000" />
+          <entry key="JAVA" value="4045" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,8 +190,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dominios/Idade.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CPFTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/CPF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominios/Nome.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Cpf.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CpfTest.java" />
@@ -190,6 +200,12 @@
         <option value="$PROJECT_DIR$/src/main/java/dominios/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/StatusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Cod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominios/Nome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/Funcao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoApoioTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" />
       </list>
     </option>
   </component>
@@ -213,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,8 +293,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,7 +301,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541210045085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541256486312" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -300,6 +316,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="testes.entidade" />
       <recent name="testes.dominio" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -323,22 +340,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StatusTest">
-    <configuration name="CodEmpresaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FuncaoApoioTest">
+    <configuration name="FuncaoApoioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testes.dominio.*" />
+          <option name="PATTERN" value="testes.entidade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testes.dominio" />
-      <option name="MAIN_CLASS_NAME" value="testes.dominio.CodEmpresaTest" />
+      <option name="PACKAGE_NAME" value="testes.entidade" />
+      <option name="MAIN_CLASS_NAME" value="testes.entidade.FuncaoApoioTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CpfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FuncaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2_projeto2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.entidade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes.entidade" />
+      <option name="MAIN_CLASS_NAME" value="testes.entidade.FuncaoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NomeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
         <pattern>
@@ -347,7 +378,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes.dominio" />
-      <option name="MAIN_CLASS_NAME" value="testes.dominio.CpfTest" />
+      <option name="MAIN_CLASS_NAME" value="testes.dominio.NomeTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -380,36 +411,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValorMonetarioTest.setValorInvalidoNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp2_projeto2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes.dominio" />
-      <option name="MAIN_CLASS_NAME" value="testes.dominio.ValorMonetarioTest" />
-      <option name="METHOD_NAME" value="setValorInvalidoNegativo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.CpfTest" />
-      <item itemvalue="JUnit.CodEmpresaTest" />
       <item itemvalue="JUnit.ValorMonetarioTest" />
-      <item itemvalue="JUnit.ValorMonetarioTest.setValorInvalidoNegativo" />
       <item itemvalue="JUnit.StatusTest" />
+      <item itemvalue="JUnit.FuncaoTest" />
+      <item itemvalue="JUnit.NomeTest" />
+      <item itemvalue="JUnit.FuncaoApoioTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FuncaoApoioTest" />
+        <item itemvalue="JUnit.FuncaoTest" />
+        <item itemvalue="JUnit.NomeTest" />
         <item itemvalue="JUnit.StatusTest" />
         <item itemvalue="JUnit.ValorMonetarioTest" />
-        <item itemvalue="JUnit.ValorMonetarioTest.setValorInvalidoNegativo" />
-        <item itemvalue="JUnit.CodEmpresaTest" />
-        <item itemvalue="JUnit.CpfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -432,48 +447,49 @@
       <workItem from="1540940915023" duration="2648000" />
       <workItem from="1541070365757" duration="5465000" />
       <workItem from="1541191276706" duration="15117000" />
+      <workItem from="1541249869787" duration="5483000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ValorMonetarioTest - 2018.11.02 at 23h 22m 16s.xml">
-      <configuration name="ValorMonetarioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValorMonetarioTest - 2018.11.02 at 23h 23m 13s.xml">
-      <configuration name="ValorMonetarioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValorMonetarioTest_setValorInvalidoNegativo - 2018.11.02 at 23h 23m 46s.xml">
-      <configuration name="ValorMonetarioTest.setValorInvalidoNegativo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValorMonetarioTest_setValorInvalidoNegativo - 2018.11.02 at 23h 24m 12s.xml">
-      <configuration name="ValorMonetarioTest.setValorInvalidoNegativo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValorMonetarioTest - 2018.11.02 at 23h 24m 34s.xml">
-      <configuration name="ValorMonetarioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ValorMonetarioTest - 2018.11.02 at 23h 24m 44s.xml">
-      <configuration name="ValorMonetarioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.11.02 at 23h 45m 34s.xml">
-      <configuration name="StatusTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.11.02 at 23h 46m 12s.xml">
-      <configuration name="StatusTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StatusTest - 2018.11.02 at 23h 50m 37s.xml">
       <configuration name="StatusTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StatusTest - 2018.11.02 at 23h 51m 34s.xml">
       <configuration name="StatusTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StatusTest - 2018.11.03 at 12h 32m 50s.xml">
+      <configuration name="StatusTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncaoTest - 2018.11.03 at 12h 32m 55s.xml">
+      <configuration name="FuncaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncaoTest - 2018.11.03 at 12h 33m 52s.xml">
+      <configuration name="FuncaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NomeTest - 2018.11.03 at 12h 35m 57s.xml">
+      <configuration name="NomeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncaoTest - 2018.11.03 at 12h 36m 19s.xml">
+      <configuration name="FuncaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncaoTest - 2018.11.03 at 12h 40m 50s.xml">
+      <configuration name="FuncaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncaoApoioTest - 2018.11.03 at 12h 47m 04s.xml">
+      <configuration name="FuncaoApoioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncaoApoioTest - 2018.11.03 at 12h 47m 26s.xml">
+      <configuration name="FuncaoApoioTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42283000" />
+    <option name="totallyTimeSpent" value="47766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2655068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26928896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -492,7 +508,6 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32786885" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -502,6 +517,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,20 +530,6 @@
     <entry file="file://$PROJECT_DIR$/src/main.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/massive/dynamics.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -598,9 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,6 +642,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CodEmpresaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/StatusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -657,55 +685,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Nome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CodEmpresaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoApoioTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="340">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/StatusTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="64" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
