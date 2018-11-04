@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f425ce02-13ce-4cc1-a122-18f5cdce4c94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dominios/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/Data.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Setor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Setor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,28 +40,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="558">
-                    <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1993760773">
@@ -119,40 +99,41 @@
     <session id="54636884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="59" />
+          <entry key="java" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="5709" />
+          <entry key="java" value="7178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5709" />
+          <entry key="JAVA" value="7178" />
           <entry key="PLAIN_TEXT" value="9" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dominios/Idade.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CPFTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/CPF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominios/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Cpf.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CpfTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CodEmpresaTest.java" />
@@ -201,7 +181,10 @@
         <option value="$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Setor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dominios/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/entidade/FuncionarioTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java" />
       </list>
     </option>
   </component>
@@ -225,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -289,6 +271,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,12 +280,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541268218263" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541292867139" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SISCOVI/Back-End" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -336,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FuncaoApoioTest">
+  <component name="RunManager" selected="JUnit.FuncionarioTest">
     <configuration name="FuncaoApoioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
@@ -361,6 +344,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="testes.entidade" />
       <option name="MAIN_CLASS_NAME" value="testes.entidade.FuncaoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncionarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2_projeto2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.entidade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes.entidade" />
+      <option name="MAIN_CLASS_NAME" value="testes.entidade.FuncionarioTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,34 +390,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValorMonetarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp2_projeto2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.dominio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes.dominio" />
-      <option name="MAIN_CLASS_NAME" value="testes.dominio.ValorMonetarioTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.ValorMonetarioTest" />
       <item itemvalue="JUnit.StatusTest" />
       <item itemvalue="JUnit.FuncaoTest" />
       <item itemvalue="JUnit.NomeTest" />
       <item itemvalue="JUnit.FuncaoApoioTest" />
+      <item itemvalue="JUnit.FuncionarioTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FuncionarioTest" />
         <item itemvalue="JUnit.FuncaoApoioTest" />
         <item itemvalue="JUnit.FuncaoTest" />
         <item itemvalue="JUnit.NomeTest" />
         <item itemvalue="JUnit.StatusTest" />
-        <item itemvalue="JUnit.ValorMonetarioTest" />
       </list>
     </recent_temporary>
   </component>
@@ -445,19 +428,12 @@
       <workItem from="1541191276706" duration="15117000" />
       <workItem from="1541249869787" duration="5483000" />
       <workItem from="1541261179598" duration="5298000" />
+      <workItem from="1541270638507" duration="724000" />
+      <workItem from="1541283846090" duration="5686000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatusTest - 2018.11.02 at 23h 50m 37s.xml">
-      <configuration name="StatusTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.11.02 at 23h 51m 34s.xml">
-      <configuration name="StatusTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatusTest - 2018.11.03 at 12h 32m 50s.xml">
-      <configuration name="StatusTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FuncaoTest - 2018.11.03 at 12h 32m 55s.xml">
       <configuration name="FuncaoTest" configurationId="JUnit" />
     </history-entry>
@@ -479,14 +455,23 @@
     <history-entry file="FuncaoApoioTest - 2018.11.03 at 12h 47m 26s.xml">
       <configuration name="FuncaoApoioTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FuncionarioTest - 2018.11.03 at 22h 17m 53s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncionarioTest - 2018.11.03 at 22h 23m 49s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FuncionarioTest - 2018.11.03 at 22h 24m 07s.xml">
+      <configuration name="FuncionarioTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53064000" />
+    <option name="totallyTimeSpent" value="59474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28214827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -513,8 +498,8 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/TDNomeInvalido.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/TDNomeTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/TDNome.java" />
@@ -565,24 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cpf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CpfTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
@@ -604,13 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CodEmpresaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -665,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/CodEmpresa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -696,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcionario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="68" column="61" selection-start-line="68" selection-start-column="61" selection-end-line="68" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoDirecao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -720,10 +657,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/NomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CpfTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CodEmpresaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="20" selection-end-column="85" />
+        <state relative-caret-position="141">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/FuncionarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="32" column="45" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

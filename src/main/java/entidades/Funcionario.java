@@ -2,7 +2,7 @@ package entidades;
 
 import dominios.*;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Funcionario {
 
@@ -15,7 +15,7 @@ public class Funcionario {
     private CodEmpresa codEmpresa = new CodEmpresa();
     private Data dataAdmissao = new Data();
     private Data dataDesligamento = new Data();
-    private Setor setor = new Setor();
+    private int codSetor;
     private Status status = new Status();
 
     public Funcionario () { }
@@ -29,7 +29,7 @@ public class Funcionario {
                                 String codEmpresa,
                                 Date dataAdmissao,
                                 Date dataDesligamento,
-                                String setor,
+                                int codSetor,
                                 String status) {
 
         this.nome.setNome(nome);
@@ -41,7 +41,7 @@ public class Funcionario {
         this.codEmpresa.setCodEmpresa(codEmpresa);
         this.dataAdmissao.setData(dataAdmissao);
         this.dataDesligamento.setData(dataDesligamento);
-        this.setor.setSetor(setor);
+        this.codSetor = codSetor;
         this.status.setStatus(status);
 
     }
@@ -64,7 +64,7 @@ public class Funcionario {
 
     public Date getDataDesligamento () { return dataDesligamento.getDate(); }
 
-    public String getSetor () { return setor.getNome(); }
+    public int getCodSetor () { return codSetor; }
 
     public String getStatus () { return status.getStatus(); }
 
