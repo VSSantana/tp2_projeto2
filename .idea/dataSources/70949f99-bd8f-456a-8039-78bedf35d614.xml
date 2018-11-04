@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="companydb.db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.11">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="7" parent="2" name="tb_curso"/>
+    <table id="8" parent="2" name="tb_curso_empregado"/>
+    <table id="9" parent="2" name="tb_empregado"/>
+    <table id="10" parent="2" name="tb_nivel_formacao"/>
+    <table id="11" parent="2" name="tb_setor"/>
+    <table id="12" parent="2" name="tb_tipo_empregado"/>
+    <table id="13" parent="2" name="tb_vinculo_empregaticio"/>
+    <column id="14" parent="6" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="15" parent="6" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="16" parent="6" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="17" parent="6" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="18" parent="6" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="19" parent="7" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="7" name="nome_curso">
+      <Position>2</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="21" parent="7" name="sqlite_autoindex_tb_curso_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>nome_curso</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="22" parent="7">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="23" parent="7">
+      <ColNames>nome_curso</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_tb_curso_1</UnderlyingIndexName>
+    </key>
+    <column id="24" parent="8" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="8" name="cod_empregado">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="8" name="cod_curso">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="27" parent="8">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="28" parent="8">
+      <ColNames>cod_empregado</ColNames>
+      <RefTableName>tb_empregado</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+    <foreign-key id="29" parent="8">
+      <ColNames>cod_curso</ColNames>
+      <RefTableName>tb_curso</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+    <column id="30" parent="9" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="9" name="cod_nivel_formacao">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="32" parent="9" name="identificador_empresa">
+      <Position>3</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="33" parent="9" name="nome">
+      <Position>4</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="9" name="idade">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="35" parent="9" name="cpf">
+      <Position>6</Position>
+      <DataType>VARCHAR(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="9" name="data_nascimento">
+      <Position>7</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="37" parent="9" name="sqlite_autoindex_tb_empregado_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>identificador_empresa</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="38" parent="9" name="sqlite_autoindex_tb_empregado_2">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>cpf</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="9">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="40" parent="9">
+      <ColNames>identificador_empresa</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_tb_empregado_1</UnderlyingIndexName>
+    </key>
+    <key id="41" parent="9">
+      <ColNames>cpf</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_tb_empregado_2</UnderlyingIndexName>
+    </key>
+    <foreign-key id="42" parent="9">
+      <ColNames>cod_nivel_formacao</ColNames>
+      <RefTableName>tb_nivel_formacao</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+    <column id="43" parent="10" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="10" name="nivel">
+      <Position>2</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="45" parent="10" name="sqlite_autoindex_tb_nivel_formacao_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>nivel</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="10">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="47" parent="10">
+      <ColNames>nivel</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_tb_nivel_formacao_1</UnderlyingIndexName>
+    </key>
+    <column id="48" parent="11" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="11" name="cod_diretor">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="50" parent="11" name="nome">
+      <Position>3</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="51" parent="11" name="sqlite_autoindex_tb_setor_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>nome</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="11">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="53" parent="11">
+      <ColNames>nome</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_tb_setor_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="54" parent="11">
+      <ColNames>cod_diretor</ColNames>
+      <RefTableName>tb_empregado</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+    <column id="55" parent="12" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="12" name="tipo">
+      <Position>2</Position>
+      <DataType>VARCHAR(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="12" name="salario">
+      <Position>3</Position>
+      <DataType>FLOAT(20)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="58" parent="12" name="vale_transporte">
+      <Position>4</Position>
+      <DataType>FLOAT(20)|0s</DataType>
+    </column>
+    <column id="59" parent="12" name="porcentagem_bonus">
+      <Position>5</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <index id="60" parent="12" name="sqlite_autoindex_tb_tipo_empregado_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tipo</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="61" parent="12">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="62" parent="12">
+      <ColNames>tipo</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_tb_tipo_empregado_1</UnderlyingIndexName>
+    </key>
+    <column id="63" parent="13" name="cod">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="13" name="cod_empregado">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="13" name="cod_tipo_empregado">
+      <Position>3</Position>
+      <DataType>INTEGER|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="13" name="cod_setor">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="67" parent="13" name="data_inicio">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="13" name="data_fim">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <key id="69" parent="13">
+      <ColNames>cod</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="70" parent="13">
+      <ColNames>cod_empregado</ColNames>
+      <RefTableName>tb_empregado</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+    <foreign-key id="71" parent="13">
+      <ColNames>cod_tipo_empregado</ColNames>
+      <RefTableName>tb_tipo_empregado</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+    <foreign-key id="72" parent="13">
+      <ColNames>cod_setor</ColNames>
+      <RefTableName>tb_setor</RefTableName>
+      <RefColNames>cod</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

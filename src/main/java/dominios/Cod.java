@@ -2,16 +2,28 @@ package dominios;
 
 public class Cod {
 
-    private int cod;
+    private Integer cod;
 
     public void Cod () { }
 
-    public void setCod (int cod) {
+    public void setCod (Integer cod) {
+
+        validarCod(cod);
 
         this.cod = cod;
 
     }
 
-    public int getCod () { return cod; }
+    void validarCod (Integer cod) {
+
+        if (cod != null && cod <= 0) {
+
+            throw new IllegalArgumentException("Chave de registro inválida.");
+
+        }
+
+    }
+
+    public Integer getCod () { return cod; }
 
 }
