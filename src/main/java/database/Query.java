@@ -53,6 +53,42 @@ public class Query {
 
     }
 
+    public int retornaCodTipoEmpregado (String pTipo) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vCod = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_tipo_empregado " +
+                            "WHERE UPPER(tipo) = UPPER(?)";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, pTipo);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vCod = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod do tipo de empregado especificado.");
+
+        }
+
+        return vCod;
+
+    }
+
     public Curso retornaRegistroCurso (int pCodCurso) {
 
         PreparedStatement preparedStatement;
@@ -251,7 +287,7 @@ public class Query {
         PreparedStatement preparedStatement;
         ResultSet resultSet;
 
-        TipoEmpregado registro = new TipoEmpregado();
+        TipoEmpregado registro = new TipoEmpregado(connection);
 
         try {
 

@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f425ce02-13ce-4cc1-a122-18f5cdce4c94" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/Insert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/database/Update.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/database/QueryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/CursoEmpregadoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/database/ConnectSQLiteDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/database/ConnectSQLiteDatabase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/CPF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/CPF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/IdentificadorEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/IdentificadorEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/NomePessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/NomePessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/CursoEmpregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/CursoEmpregado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/Empregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/Empregado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/VinculoEmpregaticio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/VinculoEmpregaticio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/database/ConnectSQLiteDatabaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/database/ConnectSQLiteDatabaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/CPFTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/CPFTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/CodTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/CodTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/IdadeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/IdadeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/IdentificadorEmpresaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/IdentificadorEmpresaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/NomePessoaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/NomePessoaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/StatusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/StatusTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/ValorMonetarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/dominio/ValorMonetarioTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/entidade/EmpregadoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/entidade/EmpregadoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/entidade/VinculoEmpregaticioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/entidade/VinculoEmpregaticioTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/CursoEmpregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/CursoEmpregado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Setor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Setor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/VinculoEmpregaticio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/VinculoEmpregaticio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testes/entidade/EmpregadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/EmpregadoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testes/entidade/SetorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/SetorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testes/entidade/VinculoEmpregaticioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/VinculoEmpregaticioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/companydb.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/companydb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/TipoEmpregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/entidades/TipoEmpregado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/entidade/TipoEmpregadoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/entidade/TipoEmpregadoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +41,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="companydb.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -128,41 +107,42 @@
     <session id="54636884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.120" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="101" />
-          <entry key="sql" value="3" />
+          <entry key="java" value="108" />
+          <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="101" />
-          <entry key="Scratch" value="3" />
+          <entry key="JAVA" value="108" />
+          <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="49" />
-          <entry key="java" value="11177" />
-          <entry key="sql" value="1947" />
+          <entry key="java" value="12217" />
+          <entry key="sql" value="2092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11177" />
+          <entry key="JAVA" value="12217" />
           <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Scratch" value="1947" />
+          <entry key="Scratch" value="2092" />
         </counts>
       </usages-collector>
     </session>
@@ -219,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/testes/dominio/TDNomeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testes/dominio/IdadeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Idade.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CPFTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/CPF.java" />
@@ -255,21 +233,23 @@
         <option value="$PROJECT_DIR$/src/main/java/entidades/Curso.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/NivelFormacao.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/NivelFormacaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/VinculoEmpregaticio.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/VinculoEmpregaticioTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/CursoEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/CursoEmpregadoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/EmpregadoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Setor.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/SetorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/Delete.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/database/QueryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/Query.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/Insert.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/Update.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_3.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_4.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" />
       </list>
     </option>
   </component>
@@ -286,10 +266,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-74" />
+    <option name="y" value="-21" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -357,7 +337,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testes" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="entidade" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,7 +352,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541425942111" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541440335768" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -413,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryTest">
+  <component name="RunManager" selected="JUnit.TipoEmpregadoTest">
     <configuration name="ConnectSQLiteDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
@@ -442,20 +422,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NivelFormacaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp2_projeto2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.entidade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes.entidade" />
-      <option name="MAIN_CLASS_NAME" value="testes.entidade.NivelFormacaoTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
@@ -466,6 +432,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="testes.database" />
       <option name="MAIN_CLASS_NAME" value="testes.database.QueryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TipoEmpregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2_projeto2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.entidade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes.entidade" />
+      <option name="MAIN_CLASS_NAME" value="testes.entidade.TipoEmpregadoTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -485,19 +465,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.NivelFormacaoTest" />
       <item itemvalue="JUnit.VinculoEmpregaticioTest" />
       <item itemvalue="JUnit.CursoEmpregadoTest" />
       <item itemvalue="JUnit.QueryTest" />
       <item itemvalue="JUnit.ConnectSQLiteDatabaseTest" />
+      <item itemvalue="JUnit.TipoEmpregadoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TipoEmpregadoTest" />
         <item itemvalue="JUnit.QueryTest" />
         <item itemvalue="JUnit.ConnectSQLiteDatabaseTest" />
         <item itemvalue="JUnit.CursoEmpregadoTest" />
         <item itemvalue="JUnit.VinculoEmpregaticioTest" />
-        <item itemvalue="JUnit.NivelFormacaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -528,48 +508,49 @@
       <workItem from="1541369756637" duration="5416000" />
       <workItem from="1541376655445" duration="1937000" />
       <workItem from="1541411779161" duration="13916000" />
+      <workItem from="1541432863283" duration="7016000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CursoTest - 2018.11.04 at 21h 44m 54s.xml">
-      <configuration name="CursoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NivelFormacaoTest - 2018.11.04 at 22h 25m 04s.xml">
-      <configuration name="NivelFormacaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VinculoEmpregaticioTest - 2018.11.05 at 08h 14m 33s.xml">
-      <configuration name="VinculoEmpregaticioTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoEmpregadoTest - 2018.11.05 at 08h 18m 47s.xml">
-      <configuration name="CursoEmpregadoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CursoEmpregadoTest - 2018.11.05 at 08h 23m 52s.xml">
-      <configuration name="CursoEmpregadoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryTest - 2018.11.05 at 08h 51m 19s.xml">
+    <history-entry file="QueryTest - 2018.11.05 at 15h 04m 35s.xml">
       <configuration name="QueryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryTest - 2018.11.05 at 08h 51m 45s.xml">
-      <configuration name="QueryTest" configurationId="JUnit" />
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 05m 02s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnectSQLiteDatabaseTest - 2018.11.05 at 08h 51m 56s.xml">
-      <configuration name="ConnectSQLiteDatabaseTest" configurationId="JUnit" />
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 05m 44s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryTest - 2018.11.05 at 08h 52m 06s.xml">
-      <configuration name="QueryTest" configurationId="JUnit" />
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 09m 00s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryTest - 2018.11.05 at 08h 52m 42s.xml">
-      <configuration name="QueryTest" configurationId="JUnit" />
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 09m 48s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 11m 18s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 12m 51s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 38m 19s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 49m 44s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 52m 33s.xml">
+      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91586000" />
+    <option name="totallyTimeSpent" value="98602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2979744" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30257186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -578,7 +559,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275488" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3262295" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -587,7 +568,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3262295" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.35081968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -600,6 +581,38 @@
       <window_info anchor="right" id="Database" order="8" weight="0.30030257" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32942432" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30257186" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3262295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3262295" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.35081968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="8" weight="0.30030257" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32942432" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -608,8 +621,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/TDNomeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/TDNome.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/NumberFormatException.java" />
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Long.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cpf.java">
@@ -683,13 +694,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_1.sql" />
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.sql/java/sql/DriverManager.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectSQLiteDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_2.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CodTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -738,9 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -758,9 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,9 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,29 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -845,33 +817,10 @@
     <entry file="file://$PROJECT_DIR$/tp2_projeto2.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4335">
-          <caret line="255" column="65" lean-forward="true" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/EmpregadoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
           <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -909,9 +852,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_3.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="210" selection-start-line="210" selection-end-line="210" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/Query.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="9">
+          <caret line="291" column="13" lean-forward="true" selection-start-line="291" selection-start-column="13" selection-end-line="291" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_4.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectSQLiteDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="255" column="65" lean-forward="true" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
