@@ -16,7 +16,7 @@ public class Empregado {
 
     public Empregado() { }
 
-    public void setFuncionario (Integer cod,
+    public void setEmpregado (Integer cod,
                                 Integer cod_nivel_formacao,
                                 String identificadorEmpresa,
                                 String nome,

@@ -20,7 +20,7 @@ class EmpregadoTest {
         Date dataNascimentoPessoa = Date.valueOf("1994-09-03");
         Empregado empregado = new Empregado();
 
-        empregado.setFuncionario(codEmpregado,
+        empregado.setEmpregado(codEmpregado,
                                  codNivelFormacaoEmpregado,
                                  identificadorEmpresaPessoa,
                                  nomePessoa,

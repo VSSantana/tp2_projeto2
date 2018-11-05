@@ -8,9 +8,11 @@ public class CursoEmpregado {
     private Cod codEmpregado = new Cod();
     private Cod codCurso = new Cod();
 
-    public CursoEmpregado (Integer cod,
-                           Integer codEmpregado,
-                           Integer codCurso) {
+    public CursoEmpregado () { }
+
+    public void setCursoEmpregado (Integer cod,
+                                   Integer codEmpregado,
+                                   Integer codCurso) {
 
         this.cod.setCod(cod);
         this.codEmpregado.setCod(codEmpregado);

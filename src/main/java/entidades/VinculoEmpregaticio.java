@@ -14,13 +14,14 @@ public class VinculoEmpregaticio {
     private Data dataInicio = new Data();
     private Data dataFim = new Data();
 
+    public VinculoEmpregaticio () { }
 
-    public VinculoEmpregaticio (Integer cod,
-                                Integer codEmpregado,
-                                Integer codTipoEmpregado,
-                                Integer codSetor,
-                                Date dataInicio,
-                                Date dataFim) {
+    public void setVinculoEmpregaticio (Integer cod,
+                                        Integer codEmpregado,
+                                        Integer codTipoEmpregado,
+                                        Integer codSetor,
+                                        Date dataInicio,
+                                        Date dataFim) {
 
         this.cod.setCod(cod);
         this.codEmpregado.setCod(codEmpregado);
