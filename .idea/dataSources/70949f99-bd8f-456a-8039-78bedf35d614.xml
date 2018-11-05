@@ -54,7 +54,6 @@
     <index id="21" parent="7" name="sqlite_autoindex_tb_curso_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>nome_curso</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="22" parent="7">
@@ -132,13 +131,11 @@
     <index id="37" parent="9" name="sqlite_autoindex_tb_empregado_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>identificador_empresa</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="38" parent="9" name="sqlite_autoindex_tb_empregado_2">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>cpf</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="39" parent="9">
@@ -171,7 +168,6 @@
     <index id="45" parent="10" name="sqlite_autoindex_tb_nivel_formacao_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>nivel</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="46" parent="10">
@@ -199,7 +195,6 @@
     <index id="51" parent="11" name="sqlite_autoindex_tb_setor_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>nome</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="52" parent="11">
@@ -241,7 +236,6 @@
     <index id="60" parent="12" name="sqlite_autoindex_tb_tipo_empregado_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>tipo</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="61" parent="12">
