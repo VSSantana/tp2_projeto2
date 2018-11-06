@@ -26,7 +26,7 @@ class TipoEmpregadoTest {
         float salario = 21000.00f;
         float valeTransporte = 0;
         Integer bonus = 0;
-        TipoEmpregado tipoEmpregado = new TipoEmpregado(connection);
+        TipoEmpregado tipoEmpregado = new TipoEmpregado();
 
         tipoEmpregado.setTipoEmpregado(cod, tipo, salario, valeTransporte, bonus);
 
@@ -38,33 +38,5 @@ class TipoEmpregadoTest {
 
     }
 
-    @org.junit.jupiter.api.Test
-    void aumentarSalario () {
-
-        Integer cod;
-        TipoEmpregado tipoEmpregado;
-        Query query = new Query(connection);
-        Delete delete = new Delete(connection);
-        String tipo = "CONSULTOR";
-        float salario = 21000.00f;
-        float valeTransporte = 0;
-        Integer bonus = 0;
-        Insert insert = new Insert(connection);
-
-        cod = insert.insereTipoEmpregado(tipo, salario, valeTransporte, bonus);
-
-        tipoEmpregado = query.retornaRegistroTipoEmpregado(cod);
-
-        assertEquals(21000.00f, tipoEmpregado.getSalario());
-
-        tipoEmpregado.aumentarSalario(500.00f);
-
-        tipoEmpregado = query.retornaRegistroTipoEmpregado(cod);
-
-        assertEquals(500.00f, tipoEmpregado.getSalario());
-
-        delete.apagarRegistro(cod, "tb_tipo_empregado");
-
-    }
 
 }

@@ -89,6 +89,42 @@ public class Query {
 
     }
 
+    public int retornaCodVinculoEmpregaticioAtivo (int pCodEmpregado) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vCod = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                    "FROM tb_vinculo_empregaticio " +
+                    "WHERE cod_empregado = ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, pCodEmpregado);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vCod = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod do vínculo empregatício ativo.");
+
+        }
+
+        return vCod;
+
+    }
+
     public Curso retornaRegistroCurso (int pCodCurso) {
 
         PreparedStatement preparedStatement;
@@ -287,7 +323,7 @@ public class Query {
         PreparedStatement preparedStatement;
         ResultSet resultSet;
 
-        TipoEmpregado registro = new TipoEmpregado(connection);
+        TipoEmpregado registro = new TipoEmpregado();
 
         try {
 
