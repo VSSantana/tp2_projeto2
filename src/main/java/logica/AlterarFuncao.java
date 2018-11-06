@@ -2,9 +2,7 @@ package logica;
 
 import database.Query;
 import database.Update;
-import entidades.CursoEmpregado;
 import entidades.Empregado;
-import entidades.TipoEmpregado;
 import entidades.VinculoEmpregaticio;
 
 import java.sql.Connection;
