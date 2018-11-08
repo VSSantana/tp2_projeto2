@@ -89,6 +89,114 @@ public class Query {
 
     }
 
+    public int retornaCodNivelFormacao (String pNivel) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vCod = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_nivel_formacao " +
+                            "WHERE UPPER(nivel) = UPPER(?)";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, pNivel);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vCod = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod do nível de formação especificado.");
+
+        }
+
+        return vCod;
+
+    }
+
+    public int retornaCodSetor (String pSetor) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vCod = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_setor " +
+                            "WHERE UPPER(nome) = UPPER(?)";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, pSetor);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vCod = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod do setor especificado.");
+
+        }
+
+        return vCod;
+
+    }
+
+    public int retornaExiteIndentificadorEmpresa (String pIndetificadorEmpresa) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vRetorno = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_empregado " +
+                            "WHERE UPPER(identificador_empresa) = UPPER(?)";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, pIndetificadorEmpresa);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vRetorno = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod de identificação da empresa do empregado.");
+
+        }
+
+        return vRetorno;
+
+    }
+
     public int retornaCodVinculoEmpregaticioAtivo (int pCodEmpregado) {
 
         PreparedStatement preparedStatement;

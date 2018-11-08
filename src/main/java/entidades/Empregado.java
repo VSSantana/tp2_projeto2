@@ -17,12 +17,12 @@ public class Empregado {
     public Empregado() { }
 
     public void setEmpregado (Integer cod,
-                                Integer cod_nivel_formacao,
-                                String identificadorEmpresa,
-                                String nome,
-                                int idade,
-                                String cpf,
-                                Date dataNascimento) {
+                              Integer cod_nivel_formacao,
+                              String identificadorEmpresa,
+                              String nome,
+                              int idade,
+                              String cpf,
+                              Date dataNascimento) {
 
         this.cod.setCod(cod);
         this.cod_nivel_formacao.setCod(cod_nivel_formacao);

@@ -1,5 +1,9 @@
 package dominios;
 
+import database.Query;
+
+import java.sql.Connection;
+import java.util.Random;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
@@ -14,6 +18,34 @@ public class IdentificadorEmpresa {
         validarIdentificadorEmpresa(identificadorEmpresa);
 
         this.identificadorEmpresa = identificadorEmpresa;
+
+    }
+
+    public String gerarIdentificador (Connection connection) {
+
+        String randomNumber = null;
+        int vRetornoExistencia = 1;
+        Double firstPart;
+        Double secondPart;
+        Query consulta = new Query(connection);
+
+        while (vRetornoExistencia != 0) {
+
+            randomNumber = null;
+
+            firstPart = Math.random() * 89999 + 10000;
+            secondPart = Math.random() * 89999 + 10000;
+
+            randomNumber = firstPart.toString();
+            randomNumber = randomNumber + secondPart.toString();
+
+            vRetornoExistencia = consulta.retornaExiteIndentificadorEmpresa(randomNumber);
+
+        }
+
+        validarIdentificadorEmpresa(randomNumber);
+
+        return randomNumber;
 
     }
 
