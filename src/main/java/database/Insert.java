@@ -15,6 +15,20 @@ public class Insert {
 
     }
 
+    public void closeConnection () {
+
+        try {
+
+            connection.close();
+
+        } catch (Exception exception) {
+
+            throw new NullPointerException("Não foi possível fechar a conexão com o banco de dados.");
+
+        }
+
+    }
+
     public int insereCurso (String pNomeCurso) {
 
         PreparedStatement preparedStatement;
@@ -218,7 +232,18 @@ public class Insert {
             preparedStatement.setInt(3, pCodTipoEmpregado);
             preparedStatement.setInt(4, pCodSetor);
             preparedStatement.setDate(5, pDataInicio);
-            preparedStatement.setDate(6, pDataFim);
+
+            if (pDataFim != null) {
+
+                preparedStatement.setDate(6, pDataFim);
+
+            }
+
+            else {
+
+                preparedStatement.setNull(6, java.sql.Types.DATE);
+
+            }
 
             preparedStatement.executeUpdate();
 

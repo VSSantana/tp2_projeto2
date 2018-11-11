@@ -25,16 +25,16 @@ public class IdentificadorEmpresa {
 
         String randomNumber = null;
         int vRetornoExistencia = 1;
-        Double firstPart;
-        Double secondPart;
+        Long firstPart;
+        Long secondPart;
         Query consulta = new Query(connection);
 
         while (vRetornoExistencia != 0) {
 
             randomNumber = null;
 
-            firstPart = Math.random() * 89999 + 10000;
-            secondPart = Math.random() * 89999 + 10000;
+            firstPart = (long) (Math.random() * 89999 + 10000);
+            secondPart =  (long) (Math.random() * 89999 + 10000);
 
             randomNumber = firstPart.toString();
             randomNumber = randomNumber + secondPart.toString();

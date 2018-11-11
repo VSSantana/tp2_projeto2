@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f425ce02-13ce-4cc1-a122-18f5cdce4c94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/logica/ValidarQualificao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testes/logica/CadastrarEmpregadoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/companydb.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/companydb.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Delete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Delete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Insert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Insert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/database/Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/IdentificadorEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/dominios/IdentificadorEmpresa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/logica/CadastrarEmpregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/logica/CadastrarEmpregado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Delete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Insert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/database/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/database/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Update.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testes/dominio/IdentificadorEmpresaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/dominio/IdentificadorEmpresaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,6 +57,25 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/CursoTest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="102">
+                    <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1993760773">
@@ -105,12 +135,13 @@
     <session id="54636884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.120" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="1" />
@@ -119,33 +150,35 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="137" />
-          <entry key="sql" value="9" />
+          <entry key="class" value="1" />
+          <entry key="java" value="166" />
+          <entry key="sql" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="137" />
-          <entry key="Scratch" value="9" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="166" />
+          <entry key="Scratch" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="49" />
-          <entry key="java" value="15197" />
-          <entry key="sql" value="2684" />
+          <entry key="java" value="18404" />
+          <entry key="sql" value="2910" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15197" />
+          <entry key="JAVA" value="18404" />
           <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Scratch" value="2684" />
+          <entry key="Scratch" value="2910" />
         </counts>
       </usages-collector>
     </session>
@@ -182,7 +215,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -202,9 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dominios/ValorMonetario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testes/dominio/ValorMonetarioTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dominios/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/StatusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Nome.java" />
@@ -219,7 +249,6 @@
         <option value="$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/database/ConnectSQLite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/ConnectSQLiteDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/database/ConnectSQLiteDatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Cod.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CodTest.java" />
@@ -234,25 +263,29 @@
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/EmpregadoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Setor.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/SetorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/Delete.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/database/QueryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/Insert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/Update.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_3.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_4.sql" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java" />
         <option value="$PROJECT_DIR$/src/main/java/logica/AumentarSalario.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/logica/AlterarEmpregado.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_5.sql" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/Query.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/IdentificadorEmpresaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/ValidarQualificao.java" />
         <option value="$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/Delete.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/logica/CadastrarEmpregadoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/Insert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/Query.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/Update.java" />
+        <option value="$PROJECT_DIR$/src/main/java/database/ConnectSQLiteDatabase.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_2.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java" />
       </list>
     </option>
   </component>
@@ -282,7 +315,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,13 +387,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testes" type="462c0819:PsiDirectoryNode" />
-              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+              <item name="entidade" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,12 +413,12 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541677485981" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541970296166" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="D:/Downloads/projeto-tp2-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -387,6 +429,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="testes.logica" />
       <recent name="testes.database" />
       <recent name="testes.entidade" />
       <recent name="testes.dominio" />
@@ -412,7 +455,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IdentificadorEmpresaTest">
+  <component name="RunManager" selected="JUnit.CadastrarEmpregadoTest">
+    <configuration name="CadastrarEmpregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2_projeto2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.logica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes.logica" />
+      <option name="MAIN_CLASS_NAME" value="testes.logica.CadastrarEmpregadoTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConnectSQLiteDatabaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
@@ -423,20 +480,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="testes.database" />
       <option name="MAIN_CLASS_NAME" value="testes.database.ConnectSQLiteDatabaseTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CursoEmpregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp2_projeto2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.entidade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes.entidade" />
-      <option name="MAIN_CLASS_NAME" value="testes.entidade.CursoEmpregadoTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -484,19 +527,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CursoEmpregadoTest" />
       <item itemvalue="JUnit.QueryTest" />
       <item itemvalue="JUnit.ConnectSQLiteDatabaseTest" />
       <item itemvalue="JUnit.TipoEmpregadoTest" />
       <item itemvalue="JUnit.IdentificadorEmpresaTest" />
+      <item itemvalue="JUnit.CadastrarEmpregadoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CadastrarEmpregadoTest" />
         <item itemvalue="JUnit.IdentificadorEmpresaTest" />
         <item itemvalue="JUnit.TipoEmpregadoTest" />
         <item itemvalue="JUnit.QueryTest" />
         <item itemvalue="JUnit.ConnectSQLiteDatabaseTest" />
-        <item itemvalue="JUnit.CursoEmpregadoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -534,48 +577,58 @@
       <workItem from="1541542711327" duration="958000" />
       <workItem from="1541613463987" duration="1828000" />
       <workItem from="1541671256827" duration="6163000" />
+      <workItem from="1541957924830" duration="11344000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 05m 02s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 16h 10m 05s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 05m 44s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 16h 10m 17s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 09m 00s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 16h 50m 12s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 09m 48s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 17h 43m 38s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 11m 18s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 17h 51m 25s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 12m 51s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 17h 55m 44s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 38m 19s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 17h 57m 06s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 49m 44s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 17h 59m 51s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TipoEmpregadoTest - 2018.11.05 at 15h 52m 33s.xml">
-      <configuration name="TipoEmpregadoTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 18h 01m 20s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IdentificadorEmpresaTest - 2018.11.08 at 09h 44m 18s.xml">
-      <configuration name="IdentificadorEmpresaTest" configurationId="JUnit" />
+    <history-entry file="CadastrarEmpregadoTest - 2018.11.11 at 18h 04m 18s.xml">
+      <configuration name="CadastrarEmpregadoTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122352000" />
+    <option name="totallyTimeSpent" value="133696000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33055976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33585477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -588,13 +641,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3262295" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.35081968" />
+      <window_info anchor="bottom" id="Database Console" order="12" visible="true" weight="0.27704918" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -646,22 +699,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/NomePessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoApoioTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/FuncaoTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Funcao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Idade.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -681,7 +718,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/FuncaoApoio.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console.sql" />
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.sql/java/sql/DriverManager.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_2.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/CodTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -696,32 +732,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/EmpregadoNivel1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/VinculoEmpregaticioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/CursoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -750,13 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -798,38 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="210" selection-start-line="210" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectSQLiteDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Insert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="255" column="65" lean-forward="true" selection-start-line="255" selection-start-column="65" selection-end-line="255" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/database/QueryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -854,40 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AumentarSalario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_5.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -902,27 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/CursoEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Empregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/dominio/IdentificadorEmpresaTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -930,27 +855,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/CursoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="102">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Query.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/database/QueryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="193" column="9" lean-forward="true" selection-start-line="193" selection-start-column="9" selection-end-line="193" selection-end-column="9" />
+        <state relative-caret-position="153">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/CursoEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dominios/Cpf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/ValidarQualificao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.23.1.jar!/org/sqlite/jdbc3/JDBC3PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/CadastrarEmpregadoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Empregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AumentarSalario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Insert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/ConnectSQLiteDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="55" column="94" selection-start-line="55" selection-start-column="94" selection-end-line="55" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -17,6 +17,20 @@ public class Query {
 
     }
 
+    public void closeConnection () {
+
+        try {
+
+            connection.close();
+
+        } catch (Exception exception) {
+
+            throw new NullPointerException("Não foi possível fechar a conexão com o banco de dados.");
+
+        }
+
+    }
+
     public int retornaCodSequenceTable(String pNomeTabela) {
 
         PreparedStatement preparedStatement;
@@ -118,6 +132,42 @@ public class Query {
             exception.printStackTrace();
 
             throw new NullPointerException("Não foi possível recuperar o cod do nível de formação especificado.");
+
+        }
+
+        return vCod;
+
+    }
+
+    public int retornaCodCurso (String pCurso) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vCod = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_curso " +
+                            "WHERE UPPER(nome_curso) = UPPER(?)";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1, pCurso);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vCod = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod do curso especificado.");
 
         }
 
