@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class Query {
 
@@ -28,6 +29,119 @@ public class Query {
             throw new NullPointerException("Não foi possível fechar a conexão com o banco de dados.");
 
         }
+
+    }
+
+    public int retornaNumeroEmpregadosAtivos() {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vNummeroEmpregadosAtivos = 0;
+
+        try {
+
+            String sql =  "SELECT COUNT(cod) " +
+                            "FROM tb_vinculo_empregaticio " +
+                            "WHERE data_fim IS NULL";
+
+            preparedStatement = connection.prepareStatement(sql);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vNummeroEmpregadosAtivos = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o número de empregados ativos.");
+
+        }
+
+        return vNummeroEmpregadosAtivos;
+
+    }
+
+    public int retornaNumeroEmpregadosFuncao(int pCodFuncao) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vNumeroEmpregadosFuncao = 0;
+
+        try {
+
+            String sql =  "SELECT COUNT(cod) " +
+                            "FROM tb_vinculo_empregaticio " +
+                            "WHERE data_fim IS NULL AND cod_tipo_empregado = ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, pCodFuncao);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vNumeroEmpregadosFuncao = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o número de empregados ativos na função.");
+
+        }
+
+        return vNumeroEmpregadosFuncao;
+
+    }
+
+    public ArrayList<Integer> retornaFuncoesSalarioMenor(float pSalario) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        ArrayList<Integer> funcoes = new ArrayList<>();
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_tipo_empregado " +
+                            "WHERE salario < ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setFloat(1, pSalario);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                funcoes.add(resultSet.getInt(1));
+
+                while (resultSet.next()) {
+
+                    funcoes.add(resultSet.getInt(1));
+
+                }
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar as funções abaixo relacionadas a este valor.");
+
+        }
+
+        return funcoes;
 
     }
 
