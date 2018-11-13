@@ -145,6 +145,42 @@ public class Query {
 
     }
 
+    public float retornaFuncoesSalario (int pCodFuncao) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        float salario = 0;
+
+        try {
+
+            String sql =  "SELECT salario " +
+                            "FROM tb_tipo_empregado " +
+                            "WHERE cod = ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, pCodFuncao);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                salario = resultSet.getFloat(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar a remuneração da função.");
+
+        }
+
+        return salario;
+
+    }
+
     public int retornaCodSequenceTable(String pNomeTabela) {
 
         PreparedStatement preparedStatement;

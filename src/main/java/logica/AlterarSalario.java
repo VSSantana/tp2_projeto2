@@ -8,17 +8,17 @@ import entidades.TipoEmpregado;
 
 import java.sql.Connection;
 
-public class AumentarSalario {
+public class AlterarSalario {
 
     private Connection connection;
 
-    public AumentarSalario (Connection connection) {
+    public AlterarSalario(Connection connection) {
 
         this.connection = connection;
 
     }
 
-    public void aumentarSalario (String funcao, float novoSalario) {
+    public void alterarSalario (String funcao, float novoSalario) {
 
         Integer cod;
         TipoEmpregado tipoEmpregado;
