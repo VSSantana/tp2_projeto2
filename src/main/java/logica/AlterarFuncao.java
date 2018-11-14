@@ -4,6 +4,7 @@ import database.Insert;
 import database.Query;
 import database.Update;
 import entidades.Empregado;
+import entidades.Setor;
 import entidades.VinculoEmpregaticio;
 
 import java.sql.Connection;
@@ -54,6 +55,21 @@ public class AlterarFuncao {
                 if (empregado.getCodNivelFormacao() != vCodNivelFormacaoSuperior) {
 
                     throw new IllegalArgumentException("Formação imcompatível com a função.");
+
+                }
+
+                else {
+
+                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
+
+                    vinculo = query.retornaRegistroVinculoEmpregaticio(empregado.getCod());
+                    Setor vSetor = query.retornaRegistroSetor(vinculo.getCodSetor());
+
+                    if (!validarQualificao.validarFormacaoSetor(vSetor.getNome(), empregado.getCod())) {
+
+                        throw new IllegalArgumentException("Curso incompatível com o setor designado.");
+
+                    }
 
                 }
 

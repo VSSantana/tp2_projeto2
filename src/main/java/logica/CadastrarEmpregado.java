@@ -118,9 +118,9 @@ public class CadastrarEmpregado {
 
                 if (pNivelFormacao.equals("3º GRAU (ENSINO SUPERIOR)")) {
 
-                    ValidarQualificao validarQualificao = new ValidarQualificao();
+                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
 
-                    if (!validarQualificao.validarFormacaoSetor(pSetor, pCurso)) {
+                    if (!validarQualificao.validarFormacaoSetor(pSetor, empregado.getCod())) {
 
                         throw new IllegalArgumentException("Curso incompatível com o setor designado.");
 

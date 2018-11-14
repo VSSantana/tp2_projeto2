@@ -3,6 +3,7 @@ package logica;
 import database.Query;
 import database.Update;
 import entidades.Empregado;
+import entidades.Setor;
 import entidades.TipoEmpregado;
 import entidades.VinculoEmpregaticio;
 
@@ -35,6 +36,9 @@ public class DadosColaborador extends Empregado {
         this.vinculo = consulta.retornaRegistroVinculoEmpregaticio(codVinculo);
 
         TipoEmpregado tipoEmpregado = consulta.retornaRegistroTipoEmpregado(vinculo.getCodTipoEmpregado());
+        Setor setorEmpregado = consulta.retornaRegistroSetor(vinculo.getCodSetor());
+
+        this.setor = setorEmpregado.getNome();
 
         this.cargo = tipoEmpregado.getTipo();
         this.salario = tipoEmpregado.getSalario();
@@ -164,15 +168,71 @@ public class DadosColaborador extends Empregado {
                             super.getCpf(),
                             super.getDataNascimento());
 
-        // Implementar método para fazer a alteraçõs do cod indentificador da empresa.
+        update.atualizarIdentificadorEmpresa(super.getCod(),
+                                             super.getIdentificadorEmpresa());
 
     }
 
-    public void alterarDataAdmissao (int pCodEmpregado) { }
+    public void alterarDataAdmissao (int pCodEmpregado, Date pDataInicio) {
 
-    public void alterarSetor (int pCodEmpregado) { }
+        Update update = new Update(connection);
 
-    public void alterarCargo (int pCodEmpregado) { }
+        vinculo.setVinculoEmpregaticio(vinculo.getCod(),
+                                       vinculo.getCodEmpregado(),
+                                       vinculo.getCodTipoEmpregado(),
+                                       vinculo.getCodSetor(),
+                                       pDataInicio,
+                                       vinculo.getDataFim());
+
+        update.atualizarVinculoEmpregaticio(vinculo.getCod(),
+                                            vinculo.getCodTipoEmpregado(),
+                                            vinculo.getCodSetor(),
+                                            vinculo.getDataInicio(),
+                                            vinculo.getDataFim());
+
+    }
+
+    public void alterarSetor (int pCodEmpregado, String pSetor) {
+
+        Update update = new Update(connection);
+        Query consulta = new Query(connection);
+        int vCodSetor = consulta.retornaCodSetor(pSetor);
+
+        vinculo.setVinculoEmpregaticio(vinculo.getCod(),
+                                       vinculo.getCodEmpregado(),
+                                       vinculo.getCodTipoEmpregado(),
+                                       vCodSetor,
+                                       vinculo.getDataInicio(),
+                                       vinculo.getDataFim());
+
+        update.atualizarVinculoEmpregaticio(vinculo.getCod(),
+                                            vinculo.getCodTipoEmpregado(),
+                                            vinculo.getCodSetor(),
+                                            vinculo.getDataInicio(),
+                                            vinculo.getDataFim());
+
+    }
+
+    public void alterarCargo (int pCodEmpregado, String pCargo) {
+
+        Update update = new Update(connection);
+        Query consulta = new Query(connection);
+        int vCodCargo = consulta.retornaCodTipoEmpregado(pCargo);
+
+        vinculo.setVinculoEmpregaticio(vinculo.getCod(),
+                                       vinculo.getCodEmpregado(),
+                                       vCodCargo,
+                                       vinculo.getCodSetor(),
+                                       vinculo.getDataInicio(),
+                                       vinculo.getDataFim());
+
+        update.atualizarVinculoEmpregaticio(vinculo.getCod(),
+                                            vinculo.getCodTipoEmpregado(),
+                                            vinculo.getCodSetor(),
+                                            vinculo.getDataInicio(),
+                                            vinculo.getDataFim());
+
+    }
 
     public String getNomeColaborador () { return super.getNomePessoa(); }
 
@@ -189,11 +249,5 @@ public class DadosColaborador extends Empregado {
     public String getCargoColaborador () { return cargo; }
 
     public float getSalario () { return salario; }
-
-
-
-
-
-
 
 }

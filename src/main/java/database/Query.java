@@ -32,6 +32,40 @@ public class Query {
 
     }
 
+    public ArrayList<String> retornaCursosEmpregado (int pCodEmpregado) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        ArrayList<String> cursos = new ArrayList<>();
+
+        try {
+
+            String sql = "SELECT nome_curso" +
+                          " FROM tb_curso c" +
+                            " JOIN tb_curso_empregado ce ON ce.cod_curso = c.cod" +
+                          " WHERE ce.cod_empregado = ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+
+            resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+
+                cursos.add(resultSet.getString(1));
+
+            }
+
+        } catch (SQLException e) {
+
+            throw new NullPointerException("Erro ao recuperar os cursos do empregado.");
+
+        }
+
+        return cursos;
+
+    }
+
     public int retornaNumeroEmpregadosAtivos() {
 
         PreparedStatement preparedStatement;

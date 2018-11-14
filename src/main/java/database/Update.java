@@ -169,6 +169,37 @@ public class Update {
 
     }
 
+    public int atualizarIdentificadorEmpresa (int pCodEmpregado,
+                                              String pIdentificadorEmpresa) {
+
+        PreparedStatement preparedStatement;
+        int vRetorno = -1;
+
+        try {
+
+            String sql = "UPDATE tb_empregado" +
+                          " SET identificador_empresa = ?" +
+                          " WHERE COD = ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, pCodEmpregado);
+
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException sqle) {
+
+            sqle.printStackTrace();
+
+            throw new NullPointerException("Não foi possível atualizar o identificador da empresa do empregado. Retornou código: " + vRetorno);
+
+        }
+
+        vRetorno = 0;
+
+        return vRetorno;
+
+    }
+
     public int atualizarSetor (int pCodSetor,
                                int pCodDiretor,
                                String pNome) {
