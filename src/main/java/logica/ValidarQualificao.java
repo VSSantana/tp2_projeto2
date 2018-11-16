@@ -1,6 +1,8 @@
 package logica;
 
 import database.Query;
+import entidades.TipoEmpregado;
+import entidades.VinculoEmpregaticio;
 
 import java.sql.Connection;
 import java.util.ArrayList;

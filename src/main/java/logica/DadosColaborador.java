@@ -16,6 +16,7 @@ public class DadosColaborador extends Empregado {
 
     private Connection connection;
     private VinculoEmpregaticio vinculo = new VinculoEmpregaticio();
+    private VinculoEmpregaticio vinculoInicial = new VinculoEmpregaticio();
     private Empregado empregado = new Empregado();
     private float salario;
     private String cargo;
@@ -30,10 +31,12 @@ public class DadosColaborador extends Empregado {
     public void recuperaDados (int pCodEmpregado) {
 
         Query consulta = new Query(connection);
-        int codVinculo = consulta.retornaCodVinculoEmpregaticioAtivo(pCodEmpregado);
+        int codVinculo = consulta.retornaCodVinculoEmpregaticioPrimeiro(pCodEmpregado);
+        int codVinculoInicial = consulta.retornaCodVinculoEmpregaticioPrimeiro(empregado.getCod());
 
         this.empregado = consulta.retornaRegistroEmpregado(pCodEmpregado);
         this.vinculo = consulta.retornaRegistroVinculoEmpregaticio(codVinculo);
+        this.vinculoInicial = consulta.retornaRegistroVinculoEmpregaticio(codVinculoInicial);
 
         TipoEmpregado tipoEmpregado = consulta.retornaRegistroTipoEmpregado(vinculo.getCodTipoEmpregado());
         Setor setorEmpregado = consulta.retornaRegistroSetor(vinculo.getCodSetor());
@@ -177,18 +180,18 @@ public class DadosColaborador extends Empregado {
 
         Update update = new Update(connection);
 
-        vinculo.setVinculoEmpregaticio(vinculo.getCod(),
-                                       vinculo.getCodEmpregado(),
-                                       vinculo.getCodTipoEmpregado(),
-                                       vinculo.getCodSetor(),
-                                       pDataInicio,
-                                       vinculo.getDataFim());
+        vinculoInicial.setVinculoEmpregaticio(vinculoInicial.getCod(),
+                                              vinculoInicial.getCodEmpregado(),
+                                              vinculoInicial.getCodTipoEmpregado(),
+                                              vinculoInicial.getCodSetor(),
+                                              pDataInicio,
+                                              vinculoInicial.getDataFim());
 
-        update.atualizarVinculoEmpregaticio(vinculo.getCod(),
-                                            vinculo.getCodTipoEmpregado(),
-                                            vinculo.getCodSetor(),
-                                            vinculo.getDataInicio(),
-                                            vinculo.getDataFim());
+        update.atualizarVinculoEmpregaticio(vinculoInicial.getCod(),
+                                            vinculoInicial.getCodTipoEmpregado(),
+                                            vinculoInicial.getCodSetor(),
+                                            vinculoInicial.getDataInicio(),
+                                            vinculoInicial.getDataFim());
 
     }
 
@@ -197,6 +200,7 @@ public class DadosColaborador extends Empregado {
         Update update = new Update(connection);
         Query consulta = new Query(connection);
         int vCodSetor = consulta.retornaCodSetor(pSetor);
+        TipoEmpregado tipoEmpregado = consulta.retornaRegistroTipoEmpregado(vinculo.getCodTipoEmpregado());
 
         vinculo.setVinculoEmpregaticio(vinculo.getCod(),
                                        vinculo.getCodEmpregado(),
@@ -204,6 +208,46 @@ public class DadosColaborador extends Empregado {
                                        vCodSetor,
                                        vinculo.getDataInicio(),
                                        vinculo.getDataFim());
+
+        if (!tipoEmpregado.getTipo().equals("AUXILIAR")) {
+
+            if (tipoEmpregado.getTipo().equals("TÉCNICO")) {
+
+                int vCodNivelFormacaoMedio = consulta.retornaCodNivelFormacao("2º GRAU (ENSINO MÉDIO)");
+
+                if (empregado.getCodNivelFormacao() == vCodNivelFormacaoMedio) {
+
+                    throw new IllegalArgumentException("Formação imcompatível com a função.");
+
+                }
+
+            }
+
+            else {
+
+                int vCodNivelFormacaoSuperior = consulta.retornaCodNivelFormacao("3º GRAU (ENSINO SUPERIOR)");
+
+                if (empregado.getCodNivelFormacao() != vCodNivelFormacaoSuperior) {
+
+                    throw new IllegalArgumentException("Formação imcompatível com a função.");
+
+                }
+
+                else {
+
+                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
+
+                    if (!validarQualificao.validarFormacaoSetor(pSetor, pCodEmpregado)) {
+
+                        throw new IllegalArgumentException("Curso incompatível com o setor designado.");
+
+                    }
+
+                }
+
+            }
+
+        }
 
         update.atualizarVinculoEmpregaticio(vinculo.getCod(),
                                             vinculo.getCodTipoEmpregado(),
@@ -213,18 +257,61 @@ public class DadosColaborador extends Empregado {
 
     }
 
+    // Aqui o objetivo é alterar um registro por ocasião de erro e não de promoção.
+
     public void alterarCargo (int pCodEmpregado, String pCargo) {
 
         Update update = new Update(connection);
         Query consulta = new Query(connection);
         int vCodCargo = consulta.retornaCodTipoEmpregado(pCargo);
+        TipoEmpregado tipoEmpregado = consulta.retornaRegistroTipoEmpregado(vinculo.getCodTipoEmpregado());
 
         vinculo.setVinculoEmpregaticio(vinculo.getCod(),
-                                       vinculo.getCodEmpregado(),
-                                       vCodCargo,
-                                       vinculo.getCodSetor(),
-                                       vinculo.getDataInicio(),
-                                       vinculo.getDataFim());
+                vinculo.getCodEmpregado(),
+                vCodCargo,
+                vinculo.getCodSetor(),
+                vinculo.getDataInicio(),
+                vinculo.getDataFim());
+
+        if (!tipoEmpregado.getTipo().equals("AUXILIAR")) {
+
+            if (tipoEmpregado.getTipo().equals("TÉCNICO")) {
+
+                int vCodNivelFormacaoMedio = consulta.retornaCodNivelFormacao("2º GRAU (ENSINO MÉDIO)");
+
+                if (empregado.getCodNivelFormacao() == vCodNivelFormacaoMedio) {
+
+                    throw new IllegalArgumentException("Formação imcompatível com a função.");
+
+                }
+
+            }
+
+            else {
+
+                int vCodNivelFormacaoSuperior = consulta.retornaCodNivelFormacao("3º GRAU (ENSINO SUPERIOR)");
+
+                if (empregado.getCodNivelFormacao() != vCodNivelFormacaoSuperior) {
+
+                    throw new IllegalArgumentException("Formação imcompatível com a função.");
+
+                }
+
+                else {
+
+                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
+
+                    if (!validarQualificao.validarFormacaoSetor(setor, pCodEmpregado)) {
+
+                        throw new IllegalArgumentException("O colaborador não possui formação compatível com o setor.");
+
+                    }
+
+                }
+
+            }
+
+        }
 
         update.atualizarVinculoEmpregaticio(vinculo.getCod(),
                                             vinculo.getCodTipoEmpregado(),
@@ -249,5 +336,7 @@ public class DadosColaborador extends Empregado {
     public String getCargoColaborador () { return cargo; }
 
     public float getSalario () { return salario; }
+
+    public Date getDataAdmissao () { return vinculoInicial.getDataInicio(); }
 
 }
