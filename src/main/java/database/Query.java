@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.sql.Date;
 
 public class Query {
 
@@ -480,7 +481,7 @@ public class Query {
                             "FROM tb_vinculo_empregaticio " +
                             "WHERE cod_empregado = ? " +
                               "AND data_inicio = (SELECT MIN(data_inicio) " +
-                                                   "FROM tb_vinculo_empregado " +
+                                                   "FROM tb_vinculo_empregaticio " +
                                                    "WHERE cod_empregado = ?)";
 
             preparedStatement = connection.prepareStatement(sql);
@@ -606,12 +607,12 @@ public class Query {
             if (resultSet.next()) {
 
                 registro.setEmpregado(pCodEmpregado,
-                        resultSet.getInt(1),
-                        resultSet.getString(2),
-                        resultSet.getString(3),
-                        resultSet.getInt(4),
-                        resultSet.getString(5),
-                        resultSet.getDate(6));
+                                      resultSet.getInt(1),
+                                      resultSet.getString(2),
+                                      resultSet.getString(3),
+                                      resultSet.getInt(4),
+                                      resultSet.getString(5),
+                                      Date.valueOf(resultSet.getString(6)));
 
             }
 
@@ -767,12 +768,26 @@ public class Query {
 
             if (resultSet.next()) {
 
+                Date dataFim;
+
+                if (resultSet.getString(5) == null || resultSet.getString(5).isEmpty()) {
+
+                    dataFim = null;
+
+                }
+
+                else {
+
+                    dataFim = Date.valueOf(resultSet.getString(5));
+
+                }
+
                 registro.setVinculoEmpregaticio(pCodVinculoEmpregaticio,
                                                 resultSet.getInt(1),
                                                 resultSet.getInt(2),
                                                 resultSet.getInt(3),
-                                                resultSet.getDate(4),
-                                                resultSet.getDate(5));
+                                                Date.valueOf(resultSet.getString(4)),
+                                                dataFim);
 
             }
 

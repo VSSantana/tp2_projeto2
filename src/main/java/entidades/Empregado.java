@@ -1,7 +1,6 @@
 package entidades;
 
 import dominios.*;
-
 import java.sql.Date;
 
 public class Empregado {

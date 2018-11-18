@@ -2,10 +2,7 @@ package logica;
 
 import database.Query;
 import database.Update;
-import entidades.Empregado;
-import entidades.Setor;
-import entidades.TipoEmpregado;
-import entidades.VinculoEmpregaticio;
+import entidades.*;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -21,6 +18,8 @@ public class DadosColaborador extends Empregado {
     private float salario;
     private String cargo;
     private String setor;
+    private String curso = null;
+    private String nivelFormacao;
 
     public DadosColaborador (Connection connection) {
 
@@ -31,12 +30,23 @@ public class DadosColaborador extends Empregado {
     public void recuperaDados (int pCodEmpregado) {
 
         Query consulta = new Query(connection);
-        int codVinculo = consulta.retornaCodVinculoEmpregaticioPrimeiro(pCodEmpregado);
-        int codVinculoInicial = consulta.retornaCodVinculoEmpregaticioPrimeiro(empregado.getCod());
+        int codVinculo = consulta.retornaCodVinculoEmpregaticioAtivo(pCodEmpregado);
+        int codVinculoInicial = consulta.retornaCodVinculoEmpregaticioPrimeiro(pCodEmpregado);
 
         this.empregado = consulta.retornaRegistroEmpregado(pCodEmpregado);
         this.vinculo = consulta.retornaRegistroVinculoEmpregaticio(codVinculo);
         this.vinculoInicial = consulta.retornaRegistroVinculoEmpregaticio(codVinculoInicial);
+        NivelFormacao nivelFormacao = consulta.retornaRegistroNivelFormacao(empregado.getCodNivelFormacao());
+
+        this.nivelFormacao = nivelFormacao.getNivel();
+
+        if (this.nivelFormacao.equals("3º GRAU (ENSINO SUPERIOR)")) {
+
+            Curso cursoEmpregado = consulta.retornaRegistroCurso(empregado.getCod());
+
+            this.curso = cursoEmpregado.getNomeCurso();
+
+        }
 
         TipoEmpregado tipoEmpregado = consulta.retornaRegistroTipoEmpregado(vinculo.getCodTipoEmpregado());
         Setor setorEmpregado = consulta.retornaRegistroSetor(vinculo.getCodSetor());
@@ -71,7 +81,6 @@ public class DadosColaborador extends Empregado {
                                 float salario) {
 
         super.setEmpregado (cod, cod_nivel_formacao, identificadorEmpresa, nome, idade, cpf, dataNascimento);
-
 
     }
 
@@ -338,5 +347,9 @@ public class DadosColaborador extends Empregado {
     public float getSalario () { return salario; }
 
     public Date getDataAdmissao () { return vinculoInicial.getDataInicio(); }
+
+    public String getNivelFormacaoEmpregado (){ return nivelFormacao; }
+
+    public String getCursoEmpregado () { return curso; }
 
 }

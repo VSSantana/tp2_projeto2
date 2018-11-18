@@ -11,6 +11,14 @@ import javax.jws.soap.SOAPBinding.Style;
 @SOAPBinding(style = Style.RPC)
 public interface CompanyServer {
 
-    @WebMethod public String getCurso (int pCodCurso);
+    @WebMethod public String getCurso (int pCodColaborador);
+    @WebMethod public String getNome (int pCodColaborador);
+    @WebMethod public int getIdade (int pCodColaborador);
+    @WebMethod public String getCpf (int pCodColaborador);
+    @WebMethod public String getIdentificadorEmpresa (int pCodColaborador);
+    @WebMethod public String getDataNascimento (int pCodColaborador);
+    @WebMethod public String getSetorEmpregado (int pCodColaborador);
+    @WebMethod public String getCargoEmpregado (int pCodColaborador);
+    @WebMethod public String getNivelFormacao (int pCodColaborador);
 
 }
