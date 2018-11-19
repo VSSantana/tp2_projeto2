@@ -20,6 +20,8 @@ class QueryTest {
         Integer codCurso = curso.getCod();
         String nomeCurso = curso.getNomeCurso();
 
+        query.closeConnection();
+
         assertEquals(codCurso, curso.getCod());
         assertEquals(nomeCurso, curso.getNomeCurso());
 

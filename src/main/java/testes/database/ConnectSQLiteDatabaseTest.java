@@ -34,6 +34,8 @@ class ConnectSQLiteDatabaseTest {
 
             }
 
+            connection.close();
+
         } catch (SQLException sqle) {
 
             sqle.printStackTrace();
