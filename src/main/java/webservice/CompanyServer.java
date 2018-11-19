@@ -21,5 +21,6 @@ public interface CompanyServer {
     @WebMethod public String getCargoEmpregado (int pCodColaborador);
     @WebMethod public String getNivelFormacao (int pCodColaborador);
     @WebMethod public void demitirEmpregado (int pCodEmpregado, String pData);
+    @WebMethod public int numeroEmpregadosAtivos ();
 
 }

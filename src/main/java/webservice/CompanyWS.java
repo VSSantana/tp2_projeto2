@@ -1,6 +1,7 @@
 package webservice;
 
 import database.ConnectSQLiteDatabase;
+import database.Query;
 import logica.DadosColaborador;
 import logica.DemitirEmpregado;
 
@@ -152,6 +153,20 @@ public class CompanyWS {
         DemitirEmpregado demitirEmpregado = new DemitirEmpregado(connectSQLiteDatabase.dbConnect());
 
         demitirEmpregado.demitirFuncionario(pCodEmpregado, Date.valueOf(pData));
+
+        demitirEmpregado.closeConnection();
+
+    }
+
+    public int numeroEmpregadosAtivos () {
+
+        ConnectSQLiteDatabase connectSQLiteDatabase = new ConnectSQLiteDatabase();
+        Query consulta = new Query(connectSQLiteDatabase.dbConnect());
+        int vNumeroEmpregadosAtivos = consulta.retornaNumeroEmpregadosAtivos();
+
+        consulta.closeConnection();
+
+        return vNumeroEmpregadosAtivos;
 
     }
 
