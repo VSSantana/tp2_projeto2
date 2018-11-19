@@ -1,9 +1,8 @@
 package webservice;
 
 import database.ConnectSQLiteDatabase;
-import database.Query;
-import entidades.Curso;
 import logica.DadosColaborador;
+import logica.DemitirEmpregado;
 
 import javax.jws.WebService;
 import java.sql.Date;
@@ -19,7 +18,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getNomeColaborador();
+        String vRetorno = dadosColaborador.getNomeColaborador();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -30,7 +33,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getIdadeColaborador();
+        int vRetorno = dadosColaborador.getIdadeColaborador();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -41,7 +48,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getCpfColaborador();
+        String vRetorno = dadosColaborador.getCpfColaborador();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -52,7 +63,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getIdentificadorColaboradorEmpresa();
+        String vRetorno = dadosColaborador.getIdentificadorColaboradorEmpresa();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -63,7 +78,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return String.valueOf(dadosColaborador.getDataNascimentoColaborador());
+        String vRetorno = String.valueOf(dadosColaborador.getDataNascimentoColaborador());
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -74,7 +93,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getSetorColaborador();
+        String vRetorno = dadosColaborador.getSetorColaborador();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -85,7 +108,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getCargoColaborador();
+        String vRetorno = dadosColaborador.getCargoColaborador();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -96,7 +123,11 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getNivelFormacaoEmpregado();
+        String vRetorno = dadosColaborador.getNivelFormacaoEmpregado();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
 
     }
 
@@ -107,7 +138,20 @@ public class CompanyWS {
 
         dadosColaborador.recuperaDados(pCodColaborador);
 
-        return dadosColaborador.getCursoEmpregado();
+        String vRetorno = dadosColaborador.getCursoEmpregado();
+
+        dadosColaborador.closeConnection();
+
+        return vRetorno;
+
+    }
+
+    public void demitirEmpregado (int pCodEmpregado, String pData) {
+
+        ConnectSQLiteDatabase connectSQLiteDatabase = new ConnectSQLiteDatabase();
+        DemitirEmpregado demitirEmpregado = new DemitirEmpregado(connectSQLiteDatabase.dbConnect());
+
+        demitirEmpregado.demitirFuncionario(pCodEmpregado, Date.valueOf(pData));
 
     }
 

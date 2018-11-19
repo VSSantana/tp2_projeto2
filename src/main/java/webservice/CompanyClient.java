@@ -16,7 +16,7 @@ public class CompanyClient {
         QName qname = new QName("http://webservice/","CompanyWSService");
         Service ws = Service.create(url, qname);
         CompanyServer server = ws.getPort(CompanyServer.class);
-        int codEmpregado = 1;
+        int codEmpregado = 78;
         Date vDataAdmissao = Date.valueOf("2018-11-23");
         ConnectSQLiteDatabase connectSQLiteDatabase = new ConnectSQLiteDatabase();
 
@@ -34,15 +34,29 @@ public class CompanyClient {
 
         CadastrarEmpregado cadastrarEmpregado = new CadastrarEmpregado(connectSQLiteDatabase.dbConnect());
 
+        String curso = server.getCurso(codEmpregado);
+
+        if (curso.equals("NULL")) {
+
+            curso = null;
+
+        }
+
         cadastrarEmpregado.cadastrarNovoEmpregado(server.getNome(codEmpregado),
-                                                  server.getIdade(codEmpregado),
-                                                  server.getCpf(codEmpregado),
-                                                  Date.valueOf(server.getDataNascimento(codEmpregado)),
-                                                  server.getNivelFormacao(codEmpregado),
-                                                  server.getCurso(codEmpregado),
-                                                  server.getCargoEmpregado(codEmpregado),
-                                                  server.getSetorEmpregado(codEmpregado),
-                                                  vDataAdmissao);
+                server.getIdade(codEmpregado),
+                server.getCpf(codEmpregado),
+                Date.valueOf(server.getDataNascimento(codEmpregado)),
+                server.getNivelFormacao(codEmpregado),
+                curso,
+                server.getCargoEmpregado(codEmpregado),
+                server.getSetorEmpregado(codEmpregado),
+                vDataAdmissao);
+
+        System.out.println("Empregado cadastrado no empresa.\n");
+
+        server.demitirEmpregado(codEmpregado, String.valueOf(vDataAdmissao));
+
+        System.out.println("Empregado demitido da empresa de origem. \n");
 
     }
 

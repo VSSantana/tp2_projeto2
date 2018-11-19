@@ -18,12 +18,26 @@ public class DadosColaborador extends Empregado {
     private float salario;
     private String cargo;
     private String setor;
-    private String curso = null;
+    private String curso = "NULL";
     private String nivelFormacao;
 
     public DadosColaborador (Connection connection) {
 
         this.connection = connection;
+
+    }
+
+    public void closeConnection () {
+
+        try {
+
+            connection.close();
+
+        } catch (Exception exception) {
+
+            throw new NullPointerException("Não foi possível fechar a conexão com o banco de dados.");
+
+        }
 
     }
 
@@ -42,9 +56,11 @@ public class DadosColaborador extends Empregado {
 
         if (this.nivelFormacao.equals("3º GRAU (ENSINO SUPERIOR)")) {
 
-            Curso cursoEmpregado = consulta.retornaRegistroCurso(empregado.getCod());
+            CursoEmpregado cursoEmpregado = consulta.retornaRegistroCursoEmpregado(consulta.retornaCodCursoEmpregado(empregado.getCod()));
 
-            this.curso = cursoEmpregado.getNomeCurso();
+            Curso cursoAcademico = consulta.retornaRegistroCurso(cursoEmpregado.getCodCurso());
+
+            this.curso = cursoAcademico.getNomeCurso();
 
         }
 
@@ -244,9 +260,9 @@ public class DadosColaborador extends Empregado {
 
                 else {
 
-                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
+                    ValidarQualificao validarQualificao = new ValidarQualificao();
 
-                    if (!validarQualificao.validarFormacaoSetor(pSetor, pCodEmpregado)) {
+                    if (!validarQualificao.validarFormacaoSetor(pSetor, curso)) {
 
                         throw new IllegalArgumentException("Curso incompatível com o setor designado.");
 
@@ -308,9 +324,9 @@ public class DadosColaborador extends Empregado {
 
                 else {
 
-                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
+                    ValidarQualificao validarQualificao = new ValidarQualificao();
 
-                    if (!validarQualificao.validarFormacaoSetor(setor, pCodEmpregado)) {
+                    if (!validarQualificao.validarFormacaoSetor(setor, curso)) {
 
                         throw new IllegalArgumentException("O colaborador não possui formação compatível com o setor.");
 

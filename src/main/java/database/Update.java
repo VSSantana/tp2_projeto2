@@ -297,8 +297,8 @@ public class Update {
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setInt(1, pCodTipoEmpregado);
             preparedStatement.setInt(2, pCodSetor);
-            preparedStatement.setDate(3, pDataInicio);
-            preparedStatement.setDate(4, pDataFim);
+            preparedStatement.setString(3, String.valueOf(pDataInicio));
+            preparedStatement.setString(4, String.valueOf(pDataFim));
             preparedStatement.setInt(5, pCodVinculoEmpregaticio);
 
             preparedStatement.executeUpdate();

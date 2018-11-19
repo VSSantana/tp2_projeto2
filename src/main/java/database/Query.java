@@ -360,6 +360,42 @@ public class Query {
 
     }
 
+    public int retornaCodCursoEmpregado (int pCodEmpregado) {
+
+        PreparedStatement preparedStatement;
+        ResultSet resultSet;
+
+        int vCod = 0;
+
+        try {
+
+            String sql =  "SELECT cod " +
+                            "FROM tb_curso_empregado " +
+                            "WHERE cod_empregado = ?";
+
+            preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setInt(1, pCodEmpregado);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+
+                vCod = resultSet.getInt(1);
+
+            }
+
+        } catch (SQLException exception) {
+
+            exception.printStackTrace();
+
+            throw new NullPointerException("Não foi possível recuperar o cod do curso especificado.");
+
+        }
+
+        return vCod;
+
+    }
+
     public int retornaCodSetor (String pSetor) {
 
         PreparedStatement preparedStatement;

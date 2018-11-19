@@ -1,38 +1,16 @@
 package logica;
 
-import database.Query;
-import entidades.TipoEmpregado;
-import entidades.VinculoEmpregaticio;
-
-import java.sql.Connection;
 import java.util.ArrayList;
 
 public class ValidarQualificao {
 
-    private Connection connection;
+    boolean validarFormacaoSetor (String pSetor, String pCurso) {
 
-    public ValidarQualificao (Connection connection) {
-
-        this.connection = connection;
-
-    }
-
-    boolean validarFormacaoSetor (String pSetor, int pCodEmpregado) {
-
-        Query consulta = new Query(connection);
-
-        ArrayList<String> cursosEmpregado = consulta.retornaCursosEmpregado(pCodEmpregado);
         ArrayList<String> cursosFinancas = new ArrayList<>();
         ArrayList<String> cursosMarketing = new ArrayList<>();
         ArrayList<String> cursosTecnologia = new ArrayList<>();
         ArrayList<String> cursosNormatividade = new ArrayList<>();
         ArrayList<String> cursosDesign = new ArrayList<>();
-
-        if (cursosEmpregado == null || cursosEmpregado.isEmpty()) {
-
-            return false;
-
-        }
 
         cursosFinancas.add("ADMINISTRAÇÃO");
         cursosFinancas.add("ECONOMIA");
@@ -56,13 +34,9 @@ public class ValidarQualificao {
 
         if (pSetor.equals("FINANÇAS")) {
 
-            for (String vCurso : cursosEmpregado) {
+            if (cursosFinancas.contains(pCurso.toUpperCase())){
 
-                if (cursosFinancas.contains(vCurso.toUpperCase())) {
-
-                    return true;
-
-                }
+                return true;
 
             }
 
@@ -70,13 +44,9 @@ public class ValidarQualificao {
 
         if (pSetor.equals("MARKETING")) {
 
-            for (String vCurso : cursosEmpregado) {
+            if (cursosMarketing.contains(pCurso.toUpperCase())){
 
-                if (cursosFinancas.contains(vCurso.toUpperCase())) {
-
-                    return true;
-
-                }
+                return true;
 
             }
 
@@ -84,13 +54,9 @@ public class ValidarQualificao {
 
         if (pSetor.equals("TECNOLOGIA")) {
 
-            for (String vCurso : cursosEmpregado) {
+            if (cursosTecnologia.contains(pCurso.toUpperCase())){
 
-                if (cursosFinancas.contains(vCurso.toUpperCase())) {
-
-                    return true;
-
-                }
+                return true;
 
             }
 
@@ -98,13 +64,9 @@ public class ValidarQualificao {
 
         if (pSetor.equals("NORMATIVIDADE")) {
 
-            for (String vCurso : cursosEmpregado) {
+            if (cursosNormatividade.contains(pCurso.toUpperCase())){
 
-                if (cursosFinancas.contains(vCurso.toUpperCase())) {
-
-                    return true;
-
-                }
+                return true;
 
             }
 
@@ -112,13 +74,9 @@ public class ValidarQualificao {
 
         if (pSetor.equals("DESIGN")) {
 
-            for (String vCurso : cursosEmpregado) {
+            if (cursosDesign.contains(pCurso.toUpperCase())){
 
-                if (cursosFinancas.contains(vCurso.toUpperCase())) {
-
-                    return true;
-
-                }
+                return true;
 
             }
 

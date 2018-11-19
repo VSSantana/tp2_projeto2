@@ -3,9 +3,7 @@ package logica;
 import database.Insert;
 import database.Query;
 import database.Update;
-import entidades.Empregado;
-import entidades.Setor;
-import entidades.VinculoEmpregaticio;
+import entidades.*;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -60,12 +58,14 @@ public class AlterarFuncao {
 
                 else {
 
-                    ValidarQualificao validarQualificao = new ValidarQualificao(connection);
+                    ValidarQualificao validarQualificao = new ValidarQualificao();
 
                     vinculo = query.retornaRegistroVinculoEmpregaticio(empregado.getCod());
                     Setor vSetor = query.retornaRegistroSetor(vinculo.getCodSetor());
+                    CursoEmpregado cursoEmpregado = query.retornaRegistroCursoEmpregado(query.retornaCodCursoEmpregado(empregado.getCod()));
+                    Curso cursoAcademico = query.retornaRegistroCurso(cursoEmpregado.getCodCurso());
 
-                    if (!validarQualificao.validarFormacaoSetor(vSetor.getNome(), empregado.getCod())) {
+                    if (!validarQualificao.validarFormacaoSetor(vSetor.getNome(), cursoAcademico.getNomeCurso())) {
 
                         throw new IllegalArgumentException("Curso incompatível com o setor designado.");
 
