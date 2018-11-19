@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f425ce02-13ce-4cc1-a122-18f5cdce4c94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/testes/logica/AlterarBonusDiretorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testes/logica/AlterarSalarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/companydb.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/companydb.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/DadosColaborador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/DadosColaborador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logica/ValidarQualificao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/ValidarQualificao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/logica/AlterarBonusDiretor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/logica/AlterarBonusDiretor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/logica/AlterarSalario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/logica/AlterarSalario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/logica/DadosColaboradorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp2_projeto2/testes/logica/DadosColaboradorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logica/AlterarSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logica/AlterarSalario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testes/logica/DadosColaboradorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testes/logica/DadosColaboradorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/webservice/CompanyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webservice/CompanyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webservice/CompanyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webservice/CompanyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webservice/CompanyWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webservice/CompanyWS.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,8 +110,9 @@
     <session id="54636884">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.120" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -123,42 +125,43 @@
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="271" />
-          <entry key="sql" value="24" />
+          <entry key="java" value="291" />
+          <entry key="sql" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="271" />
-          <entry key="Scratch" value="24" />
+          <entry key="JAVA" value="291" />
+          <entry key="Scratch" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="56" />
-          <entry key="java" value="27635" />
-          <entry key="sql" value="3947" />
+          <entry key="java" value="28493" />
+          <entry key="sql" value="4023" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27633" />
+          <entry key="JAVA" value="28491" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="SQL" value="2" />
-          <entry key="Scratch" value="3947" />
+          <entry key="Scratch" value="4023" />
         </counts>
       </usages-collector>
     </session>
@@ -221,9 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/testes/entidade/FuncionarioTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entidades/FuncionarioNivel1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/database/ConnectSQLite.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/database/ConnectSQLiteDatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/Cod.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/CodTest.java" />
@@ -242,7 +242,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_4.sql" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/entidade/TipoEmpregadoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java" />
         <option value="$PROJECT_DIR$/src/main/java/logica/AumentarSalario.java" />
         <option value="$PROJECT_DIR$/src/main/java/testes/dominio/IdentificadorEmpresaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/Delete.java" />
@@ -253,11 +252,9 @@
         <option value="$PROJECT_DIR$/src/main/java/logica/AlterarEmpregado.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_2.sql" />
         <option value="$PROJECT_DIR$/src/main/java/logica/Projeto4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logica/AlterarSalario.java" />
         <option value="$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/VinculoEmpregaticio.java" />
         <option value="$PROJECT_DIR$/src/main/java/webservice/CompanyServerPublisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testes/logica/DadosColaboradorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/entidades/Empregado.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_5.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_1.sql" />
@@ -270,8 +267,14 @@
         <option value="$PROJECT_DIR$/src/main/java/webservice/CompanyWS.java" />
         <option value="$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/Update.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_6.sql" />
         <option value="$PROJECT_DIR$/src/main/java/webservice/CompanyClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/logica/DadosColaboradorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/logica/AlterarBonusDiretorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/logica/AlterarFuncaoTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_6.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/logica/AlterarSalario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testes/logica/AlterarSalarioTest.java" />
       </list>
     </option>
   </component>
@@ -310,14 +313,68 @@
             </path>
             <path>
               <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entidades" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="logica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tp2_projeto2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tp2_projeto2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="webservice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,7 +384,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542586969411" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542654691864" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -370,43 +427,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompanyServerPublisher">
-    <configuration name="CompanyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="webservice.CompanyClient" />
+  <component name="RunManager" selected="JUnit.AlterarSalarioTest">
+    <configuration name="AlterarBonusDiretorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webservice.*" />
+          <option name="PATTERN" value="testes.logica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testes.logica" />
+      <option name="MAIN_CLASS_NAME" value="testes.logica.AlterarBonusDiretorTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyServerPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="webservice.CompanyServerPublisher" />
+    <configuration name="AlterarSalarioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webservice.*" />
+          <option name="PATTERN" value="testes.logica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CursoEmpregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tp2_projeto2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testes.entidade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testes.entidade" />
-      <option name="MAIN_CLASS_NAME" value="testes.entidade.CursoEmpregadoTest" />
+      <option name="PACKAGE_NAME" value="testes.logica" />
+      <option name="MAIN_CLASS_NAME" value="testes.logica.AlterarSalarioTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -425,7 +470,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmpregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="testes.dominio in tp2_projeto2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp2_projeto2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testes.dominio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testes.dominio" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testes.entidade in tp2_projeto2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tp2_projeto2" />
       <extension name="coverage">
         <pattern>
@@ -434,25 +493,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testes.entidade" />
-      <option name="MAIN_CLASS_NAME" value="testes.entidade.EmpregadoTest" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompanyServerPublisher" />
-      <item itemvalue="Application.CompanyClient" />
+      <item itemvalue="JUnit.testes.dominio in tp2_projeto2" />
+      <item itemvalue="JUnit.testes.entidade in tp2_projeto2" />
       <item itemvalue="JUnit.DadosColaboradorTest" />
-      <item itemvalue="JUnit.EmpregadoTest" />
-      <item itemvalue="JUnit.CursoEmpregadoTest" />
+      <item itemvalue="JUnit.AlterarBonusDiretorTest" />
+      <item itemvalue="JUnit.AlterarSalarioTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompanyServerPublisher" />
-        <item itemvalue="JUnit.CursoEmpregadoTest" />
-        <item itemvalue="Application.CompanyClient" />
+        <item itemvalue="JUnit.AlterarSalarioTest" />
+        <item itemvalue="JUnit.AlterarBonusDiretorTest" />
         <item itemvalue="JUnit.DadosColaboradorTest" />
-        <item itemvalue="JUnit.EmpregadoTest" />
+        <item itemvalue="JUnit.testes.entidade in tp2_projeto2" />
+        <item itemvalue="JUnit.testes.dominio in tp2_projeto2" />
       </list>
     </recent_temporary>
   </component>
@@ -506,43 +565,45 @@
       <workItem from="1542369859226" duration="3125000" />
       <workItem from="1542565762729" duration="11225000" />
       <workItem from="1542580766478" duration="6158000" />
+      <workItem from="1542641338488" duration="1768000" />
+      <workItem from="1542650144817" duration="4542000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 08m 02s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmpregadoTest - 2018.11.18 at 17h 08m 51s.xml">
-      <configuration name="EmpregadoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 09m 40s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 14m 30s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 15m 59s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 20m 02s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 22m 03s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 30m 29s.xml">
-      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DadosColaboradorTest - 2018.11.18 at 17h 31m 22s.xml">
       <configuration name="DadosColaboradorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CursoEmpregadoTest - 2018.11.18 at 21h 53m 18s.xml">
       <configuration name="CursoEmpregadoTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testes_dominio_in_tp2_projeto2 - 2018.11.19 at 13h 56m 31s.xml">
+      <configuration name="testes.dominio in tp2_projeto2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testes_entidade_in_tp2_projeto2 - 2018.11.19 at 13h 57m 28s.xml">
+      <configuration name="testes.entidade in tp2_projeto2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DadosColaboradorTest - 2018.11.19 at 16h 16m 05s.xml">
+      <configuration name="DadosColaboradorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlterarBonusDiretorTest - 2018.11.19 at 16h 37m 14s.xml">
+      <configuration name="AlterarBonusDiretorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlterarBonusDiretorTest - 2018.11.19 at 16h 41m 57s.xml">
+      <configuration name="AlterarBonusDiretorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlterarBonusDiretorTest - 2018.11.19 at 16h 42m 55s.xml">
+      <configuration name="AlterarBonusDiretorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlterarBonusDiretorTest - 2018.11.19 at 16h 43m 03s.xml">
+      <configuration name="AlterarBonusDiretorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlterarSalarioTest - 2018.11.19 at 17h 09m 32s.xml">
+      <configuration name="AlterarSalarioTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187777000" />
+    <option name="totallyTimeSpent" value="194087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -556,7 +617,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25037822" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.31089258" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -588,39 +649,6 @@
       <window_info anchor="right" id="Database" order="8" weight="0.30030257" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3290469" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.25037822" />
-      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.31089258" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3262295" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3262295" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.2704918" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="8" weight="0.30030257" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3290469" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -639,38 +667,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Setor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/NivelFormacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_3.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_4.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -758,13 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dominios/IdentificadorEmpresa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -773,13 +766,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarEmpregado.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarSalario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/logica/Projeto4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -857,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/CadastrarEmpregadoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -885,23 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/DadosColaboradorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/entidades/Empregado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,9 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,54 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="67" column="111" selection-start-line="67" selection-start-column="111" selection-end-line="67" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testes/entidade/CursoEmpregadoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/Query.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/DadosColaborador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,23 +910,117 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entidades/TipoEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarBonusDiretor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" column="9" selection-start-line="20" selection-start-column="12" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/AlterarFuncaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/CadastrarEmpregadoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/CadastrarEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-606">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarFuncao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/AlterarBonusDiretorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/DadosColaborador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/AlterarSalario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/AlterarSalarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/logica/DemitirEmpregado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70949f99-bd8f-456a-8039-78bedf35d614/console_6.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="23" selection-end-column="93" />
+        <state relative-caret-position="296">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="27" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testes/logica/DadosColaboradorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/webservice/CompanyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="323">
+          <caret line="19" column="56" lean-forward="true" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

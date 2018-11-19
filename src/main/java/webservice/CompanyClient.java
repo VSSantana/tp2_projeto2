@@ -43,14 +43,14 @@ public class CompanyClient {
         }
 
         cadastrarEmpregado.cadastrarNovoEmpregado(server.getNome(codEmpregado),
-                server.getIdade(codEmpregado),
-                server.getCpf(codEmpregado),
-                Date.valueOf(server.getDataNascimento(codEmpregado)),
-                server.getNivelFormacao(codEmpregado),
-                curso,
-                server.getCargoEmpregado(codEmpregado),
-                server.getSetorEmpregado(codEmpregado),
-                vDataAdmissao);
+                                                  server.getIdade(codEmpregado),
+                                                  server.getCpf(codEmpregado),
+                                                  Date.valueOf(server.getDataNascimento(codEmpregado)),
+                                                  server.getNivelFormacao(codEmpregado),
+                                                  curso,
+                                                  server.getCargoEmpregado(codEmpregado),
+                                                  server.getSetorEmpregado(codEmpregado),
+                                                  vDataAdmissao);
 
         System.out.println("Empregado cadastrado no empresa.\n");
 

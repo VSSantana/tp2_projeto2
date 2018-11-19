@@ -16,6 +16,20 @@ public class AlterarBonusDiretor {
 
     }
 
+    public void closeConnection () {
+
+        try {
+
+            connection.close();
+
+        } catch (Exception exception) {
+
+            throw new NullPointerException("Não foi possível fechar a conexão com o banco de dados.");
+
+        }
+
+    }
+
     public void alterarBonusDiretor (String tipoDiretor, int porcentagemBonus) {
 
         Integer cod;

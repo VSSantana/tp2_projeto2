@@ -15,6 +15,17 @@ class DadosColaboradorTest {
 
         dadosColaborador.recuperaDados(1);
 
+        assertFalse(dadosColaborador.getNomeColaborador().isEmpty());
+        assertTrue(dadosColaborador.getIdade() > 0);
+        assertFalse(dadosColaborador.getCpf().isEmpty());
+        assertFalse(dadosColaborador.getIdentificadorEmpresa().isEmpty());
+        assertTrue(dadosColaborador.getDataNascimento() != null);
+        assertFalse(dadosColaborador.getNivelFormacaoEmpregado().isEmpty());
+        assertFalse(dadosColaborador.getCursoEmpregado().isEmpty());
+        assertFalse(dadosColaborador.getSetorColaborador().isEmpty());
+        assertFalse(dadosColaborador.getCargoColaborador().isEmpty());
+
+        dadosColaborador.closeConnection();
 
     }
 

@@ -18,6 +18,20 @@ public class AlterarSalario {
 
     }
 
+    public void closeConnection () {
+
+        try {
+
+            connection.close();
+
+        } catch (Exception exception) {
+
+            throw new NullPointerException("Não foi possível fechar a conexão com o banco de dados.");
+
+        }
+
+    }
+
     public void alterarSalario (String funcao, float novoSalario) {
 
         Integer cod;
